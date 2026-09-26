@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="423" viewBox="0 0 1200 423" role="img" aria-label="chris@kehoe. Builds internet products. 6,367 contributions, 162-day streak.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="423" viewBox="0 0 1200 423" role="img" aria-label="chris@kehoe. Builds internet products. 6,370 contributions, 162-day streak.">
 <defs>
 <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b0f17"/><stop offset="1" stop-color="#0a0d13"/></linearGradient>
 <radialGradient id="glow"><stop stop-color="#6366f1" stop-opacity=".22"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
@@ -35,7 +35,7 @@
 <g class="row" style="animation-delay:0.42s"><text x="500" y="205" class="mono k">Users</text><rect x="618" y="192" width="72" height="16" rx="2" class="bar"/></g>
 <g class="row" style="animation-delay:0.51s"><text x="500" y="230" class="mono k">Revenue</text><text x="618" y="230" class="mono v dim">classified</text></g>
 <g class="row" style="animation-delay:0.60s"><text x="500" y="255" class="mono k">Uptime</text><text x="618" y="255" class="mono v ">4y 5m on github</text></g>
-<g class="row" style="animation-delay:0.69s"><text x="500" y="280" class="mono k">Commits</text><text x="618" y="280" class="mono v ">5,582 last 12mo · 6,367 all-time</text></g>
+<g class="row" style="animation-delay:0.69s"><text x="500" y="280" class="mono k">Commits</text><text x="618" y="280" class="mono v ">5,585 last 12mo · 6,370 all-time</text></g>
 <g class="row" style="animation-delay:0.78s"><text x="500" y="305" class="mono k">Streak</text><text x="618" y="305" class="mono v ">162 days · personal record</text></g>
 <g class="row" style="animation-delay:0.87s"><text x="500" y="330" class="mono k">Peak</text><text x="618" y="330" class="mono v ">137 in one day</text></g>
 <g class="row" style="animation-delay:0.96s"><text x="500" y="355" class="mono k">Lines</text><rect x="618" y="342" width="99" height="16" rx="2" class="bar"/></g>
