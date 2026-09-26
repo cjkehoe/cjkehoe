@@ -1,13 +1,9 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Chris Kehoe" width="100%" />
-</p>
-
-<p align="center">
-  <img src="assets/stats.svg" alt="Contribution totals and streak" width="100%" />
+  <img src="assets/dossier.svg" alt="chris@kehoe — builds internet products. Details redacted." width="100%" />
 </p>
 
 <p align="center">
   <img src="assets/skyline.svg" alt="The last year of contributions, as a skyline" width="100%" />
 </p>
 
-<p align="center"><sub>Most of my work lives in private repos.</sub></p>
+<p align="center"><sub>Mostly private. Always shipping.</sub></p>

@@ -80,11 +80,16 @@ async function main() {
     if (!days.has(isoDay(new Date(time)))) throw new Error(`Missing calendar day ${isoDay(new Date(time))}`);
   }
   const stats = computeStats(days, now);
+  const cal = await graphql('query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{totalContributions}}}}', { login }, token);
+  stats.lastYearGitHub = cal.contributionsCollection.contributionCalendar.totalContributions;
+  stats.lastActive = [...days.entries()].filter(([, c]) => c > 0).map(([d]) => d).sort().pop();
+  stats.createdAt = createdAt;
   const assets = fileURLToPath(new URL('../assets/', import.meta.url));
   await mkdir(assets, { recursive: true });
   const target = resolve(assets, 'stats.svg');
   await writeFile(`${target}.tmp`, render(stats));
   await rename(`${target}.tmp`, target);
+  await writeFile(resolve(assets, 'stats.json'), JSON.stringify({ ...stats, asOf: now.toISOString() }, null, 2) + '\n');
   console.log(JSON.stringify({ ...stats, asOf: isoDay(now), createdAt, calendarDays: days.size }, null, 2));
 }
 
